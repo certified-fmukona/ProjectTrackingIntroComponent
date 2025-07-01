@@ -113,8 +113,13 @@ body {
     color: #888d97;
 }
 
-#bullet {
-    color: #888d97;
+#dot {
+    background-color: #cfd5d9;
+    border-radius: 50%;
+    height: 8px;
+    width: 8px;
+    position: relative;
+    bottom: 9.909em;
 }
 
 .right {
