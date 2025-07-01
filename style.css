@@ -65,7 +65,7 @@ body {
     font-size: 15pt;
     font-family: "Barlow Condensed";
     font-weight: 600;
-    background-color: #ff5e5e;
+    background-color: hsl(0, 100%, 68%);
     border: none;
     border-radius: 8px;
     text-transform: uppercase;
@@ -145,6 +145,14 @@ body {
     background: transparent;
     text-transform: uppercase;
     letter-spacing: 1px;
+}
+
+.right button:hover {
+    text-decoration: underline;
+}
+
+#sched-demo-btn:hover {
+    background-color: hsl(0, 100%, 76%);
 }
 
 #illustration-devices {
