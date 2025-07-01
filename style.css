@@ -9,7 +9,7 @@ body {
     max-width: 100vw;
     max-height: 100vh;
     overflow-x: hidden;
-    overflow-y: hidden;
+    /* overflow-y: hidden; */ 
 }
 
 .left {
@@ -20,11 +20,11 @@ body {
 
 .left > * {
     position: relative;
-    left: 12em;
+    left: 15vw;
 }
 
 #icon {
-    top: 6.9em;
+    top: 15vh;
     width: 40px;
     height: auto;
 }
@@ -43,7 +43,7 @@ body {
 
 .text h1 {
     position: relative;
-    font-size: 58pt;
+    font-size: 4.5em;
     text-transform: uppercase;
     /* top: 1em; */
     font-family: "Barlow Condensed";
