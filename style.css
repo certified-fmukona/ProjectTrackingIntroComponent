@@ -149,6 +149,7 @@ body {
 
 .right button:hover {
     text-decoration: underline;
+    cursor: pointer;
 }
 
 #sched-demo-btn:hover {
