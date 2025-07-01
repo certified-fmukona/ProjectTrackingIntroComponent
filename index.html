@@ -5,29 +5,33 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <!-- <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png"> -->
-  <link rel="stylesheet" href="./mobile.css">
-  <link rel="stylesheet" href="./desktop.css">
-  <script defer src="./main.js"></script>
+  <link rel="stylesheet" href="./style.css">
+  <!-- <script defer src="./main.js"></script> -->
   <title>Frontend Mentor | Project tracking intro component</title>
 
 </head>
 <body>
 
-  <div class="mobile-only"></div>
-  <div class="desktop-only"></div>
-  Product
-  Features
-  Pricing
-  Login
+  <div class="left">
+    <img src="./images/logo.svg" alt="icon">
+    <div class="text">
+      <h2>New Monograph Dashboard</h2>
+      <h1>Powerful insights into your team</h1>
+      <p>Project planning and time tracking for agile teams</p>
+    </div> 
+    <button style="display: inline">Schedule a demo</button>
+    <p style="display: inline">to see a live preview</p>
+  </div>
 
-  New
-  Monograph Dashboard
+  <div class="right">
+    <button>Product</button>
+    <button>Features</button>
+    <button>Pricing</button>
+    <button>Login</button>
+  </div>
 
-  Powerful insights into your team
-  Project planning and time tracking for agile teams
+  <img id="illustration-devices" src="./images/illustration-devices.svg" alt="illustration devices">
 
-  Schedule a demo
-  to see a live preview
   
 </body>
 </html>
