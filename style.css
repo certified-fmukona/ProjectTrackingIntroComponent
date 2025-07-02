@@ -20,11 +20,11 @@ body {
 
 .left > * {
     position: relative;
-    left: 15vw;
+    left: 12vw;
 }
 
 #icon {
-    top: 15vh;
+    top: 11vh;
     width: 40px;
     height: auto;
 }
